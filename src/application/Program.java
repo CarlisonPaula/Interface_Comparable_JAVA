@@ -11,7 +11,7 @@ import entities.Employee;
 public class Program {
 	public static void main(String[] args) {
 		List<Employee> list = new ArrayList<>();
-		String path = "C:\\temp\\in.txt";
+		String path = "C:\\Users\\carlimar\\eclipse-workspace\\Interface Comparable_JAVA\\in.txt";
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 			String employeeCsv = br.readLine();
 			while (employeeCsv != null) {
